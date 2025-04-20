@@ -5,6 +5,9 @@ function CityList({ cities, isLoading }) {
   if (isLoading) {
     return <Spinner />;
   }
+  if (cities.length === 0) {
+    return <p className={styles.noCity}>No cities yet</p>;
+  }
   return (
     <ul className={styles.cityList}>
       {cities.map((city) => (
