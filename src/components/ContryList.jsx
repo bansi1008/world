@@ -2,8 +2,10 @@ import styles from "./CountryList.module.css";
 import Spinner from "./Spinner";
 import CityItem from "./CityItem";
 import CountryItem from "./CountryItem";
+import { useCity } from "../contexts/Citycontext";
 
-function ContryList({ cities, isLoading }) {
+function ContryList() {
+  const { cities, isLoading } = useCity();
   if (isLoading) {
     return <Spinner />;
   }

@@ -1,7 +1,9 @@
 import styles from "./CityList.module.css";
 import Spinner from "./Spinner";
 import CityItem from "./CityItem";
-function CityList({ cities, isLoading }) {
+import { useCity } from "../contexts/Citycontext";
+function CityList() {
+  const { cities, isLoading } = useCity();
   if (isLoading) {
     return <Spinner />;
   }
