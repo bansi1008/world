@@ -10,7 +10,7 @@
         "lat": 38.727881642324164,
         "lng": -9.140900099907554
       },
-      "id": 73930385
+      "id": "73930385"
     },
     {
       "cityName": "Madrid",
@@ -22,7 +22,7 @@
         "lat": 40.46635901755316,
         "lng": -3.7133789062500004
       },
-      "id": 17806751
+      "id": "17806751"
     },
     {
       "cityName": "Berlin",
@@ -34,7 +34,7 @@
         "lat": 52.53586782505711,
         "lng": 13.376933665713324
       },
-      "id": 98443197
+      "id": "98443197"
     },
     {
       "cityName": "Surat",
@@ -46,7 +46,7 @@
         "lat": 21.170244868698,
         "lng": 72.831062956896
       },
-      "id": 9844397
+      "id": "9844397"
     },
     {
       "cityName": "Delhi",
@@ -58,7 +58,172 @@
         "lat": 52.53586782505711,
         "lng": 13.376933665713324
       },
-      "id": 9843197
+      "id": "9843197"
+    },
+    {
+      "id": "0d71",
+      "cityName": "Newcastle upon Tyne",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "date": "2025-04-29T09:04:58.227Z",
+      "notes": "",
+      "position": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    {
+      "id": "d57e",
+      "cityName": "London",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "date": "2025-04-29T09:04:58.227Z",
+      "notes": "",
+      "position": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    {
+      "id": "2135",
+      "cityName": "London",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "date": "2025-04-29T09:04:58.227Z",
+      "notes": "",
+      "position": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    {
+      "id": "0d57",
+      "cityName": "Braintree",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "date": "2025-04-29T09:05:45.536Z",
+      "notes": "vkm",
+      "position": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    {
+      "id": "f32b",
+      "cityName": "London",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "date": "2025-04-29T09:07:51.664Z",
+      "notes": "ij",
+      "position": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    {
+      "id": "6051",
+      "cityName": "London",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "date": "2025-04-29T09:13:32.673Z",
+      "notes": "kn",
+      "position": {
+        "lat": "51.51905652865606",
+        "lng": "-0.08699855494521459"
+      }
+    },
+    {
+      "id": "08ae",
+      "cityName": "St Albans",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "date": "2025-04-29T09:13:47.029Z",
+      "notes": "l",
+      "position": {
+        "lat": "51.753440611389784",
+        "lng": "-0.2989476763012467"
+      }
+    },
+    {
+      "id": "f480",
+      "cityName": "Anand",
+      "country": "India",
+      "date": "2025-04-29T09:19:00.521Z",
+      "notes": "yes",
+      "position": {
+        "lat": "22.55043714619344",
+        "lng": "73.02270873261669"
+      }
+    },
+    {
+      "id": "ecdd",
+      "cityName": "Kalol",
+      "country": "India",
+      "date": "2025-04-29T09:20:13.136Z",
+      "notes": "l",
+      "position": {
+        "lat": "23.269371563598206",
+        "lng": "72.52701334568877"
+      }
+    },
+    {
+      "id": "1de2",
+      "cityName": "Patan",
+      "country": "India",
+      "date": "2025-04-29T09:20:13.136Z",
+      "notes": "l",
+      "position": {
+        "lat": "23.868461234382835",
+        "lng": "72.18102058537798"
+      }
+    },
+    {
+      "id": "9b33",
+      "cityName": "Rajkot",
+      "country": "India",
+      "date": "2025-04-29T09:20:13.136Z",
+      "notes": "l",
+      "position": {
+        "lat": "22.301426431705316",
+        "lng": "70.84636432160795"
+      }
+    },
+    {
+      "id": "d784",
+      "cityName": "Lakhtar",
+      "country": "India",
+      "date": "2025-04-29T09:23:30.638Z",
+      "notes": "dsc",
+      "position": {
+        "lat": "22.747941855512277",
+        "lng": "71.86778653472618"
+      }
+    },
+    {
+      "id": "77bf",
+      "cityName": "Limbdi",
+      "country": "India",
+      "date": "2025-04-29T09:23:52.035Z",
+      "notes": "ds",
+      "position": {
+        "lat": "22.716716546783026",
+        "lng": "71.87963525935176"
+      }
+    },
+    {
+      "id": "8007",
+      "cityName": "Gariadhar",
+      "country": "India",
+      "date": "2025-04-29T09:24:09.233Z",
+      "notes": "v",
+      "position": {
+        "lat": "21.539722709930622",
+        "lng": "71.5564163330806"
+      }
+    },
+    {
+      "id": "7d3c",
+      "cityName": "Morvi",
+      "country": "India",
+      "date": "2025-04-29T09:24:50.216Z",
+      "notes": "k",
+      "position": {
+        "lat": "22.842635759699917",
+        "lng": "70.86629179593302"
+      }
     }
   ]
 }

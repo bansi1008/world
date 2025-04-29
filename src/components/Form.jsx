@@ -7,6 +7,9 @@ import Button from "./Button";
 import { useNavigate } from "react-router-dom";
 import { useUrl } from "../hooks/useUrl";
 import { useEffect } from "react";
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
+import { useCity } from "../contexts/Citycontext";
 
 export function convertToEmoji(countryCode) {
   const codePoints = countryCode
@@ -23,6 +26,7 @@ function Form() {
   const [notes, setNotes] = useState("");
   const navigate = useNavigate();
   const [lat, lng] = useUrl();
+  const { createCity, isLoading } = useCity();
 
   useEffect(() => {
     async function fetchCountry() {
@@ -50,8 +54,31 @@ function Form() {
     fetchCountry();
   }, [lat, lng]);
 
+  async function handlesubmit(e) {
+    e.preventDefault();
+    if (!cityName || !country) {
+      alert("Please fill in all fields");
+      return;
+    }
+    const newCity = {
+      cityName,
+      country,
+      date,
+      notes,
+      position: {
+        lat,
+        lng,
+      },
+    };
+    await createCity(newCity);
+    navigate("/app/cities");
+  }
+
   return (
-    <form className={styles.form}>
+    <form
+      className={`${styles.form} ${isLoading ? styles.loading : ""}`}
+      onSubmit={handlesubmit}
+    >
       <div className={styles.row}>
         <label htmlFor="cityName">City name</label>
         <input
@@ -64,10 +91,16 @@ function Form() {
 
       <div className={styles.row}>
         <label htmlFor="date">When did you go to {cityName}?</label>
-        <input
+        {/* <input
           id="date"
           onChange={(e) => setDate(e.target.value)}
           value={date}
+        /> */}
+        <DatePicker
+          id="date"
+          onChange={(date) => setDate(date)}
+          selected={date}
+          dateFormat="dd/MM/yyyy"
         />
       </div>
 

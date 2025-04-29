@@ -26,26 +26,53 @@ function CityProvider({ children }) {
     fetchCities();
   }, []); // Empty dependency array ensures this runs only once on mount
 
-  function getcity(id) {
-    async function fetchCities() {
-      try {
-        const response = await fetch(`${Base_URL}/${id}`);
-        if (!response.ok) {
-          throw new Error("Error fetching data");
-        }
-        const data = await response.json();
-        setCurrentCity(data);
-      } catch (error) {
-        alert(error.message);
-      } finally {
-        setIsLoading(false); // Set loading to false after the request completes
+  async function getcity(id) {
+    try {
+      const response = await fetch(`${Base_URL}/${id}`);
+      if (!response.ok) {
+        throw new Error("Error fetching data");
       }
+      const data = await response.json();
+      setCurrentCity(data);
+    } catch (error) {
+      alert(error.message);
+    } finally {
+      setIsLoading(false); // Set loading to false after the request completes
     }
-    fetchCities();
   }
+
+  async function createCity(newCity) {
+    try {
+      const response = await fetch(`${Base_URL}`, {
+        method: "POST",
+        body: JSON.stringify(newCity),
+        headers: { "Content-Type": "application/json" },
+      });
+
+      if (!response.ok) {
+        throw new Error("Error submitting the data");
+      }
+      const data = await response.json();
+      console.log(data);
+      setCities((prevCities) => [...prevCities, data]); // Update the cities state with the new city
+      setCurrentCity(data);
+    } catch (error) {
+      alert(error.message);
+    } finally {
+      setIsLoading(false); // Set loading to false after the request completes
+    }
+  }
+
   return (
     <Citycontext.Provider
-      value={{ cities, isLoading, currentCity, setCurrentCity, getcity }}
+      value={{
+        cities,
+        isLoading,
+        currentCity,
+        setCurrentCity,
+        getcity,
+        createCity,
+      }}
     >
       {children}
     </Citycontext.Provider>
