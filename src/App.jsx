@@ -11,30 +11,41 @@ import ContryList from "./components/ContryList";
 import City from "./components/City";
 import Form from "./components/Form";
 import { CityProvider } from "./contexts/Citycontext";
+import { AuthProvider } from "./contexts/Fakecontext";
+import Protected from "./pages/Protected";
 
 function App() {
   return (
     <div>
-      <CityProvider>
-        <BrowserRouter>
-          <Routes>
-            <Route path="product" element={<Product />} />
-            <Route index element={<Homepage />} />
-            <Route path="pricing" element={<Pricing />} />
-            <Route path="app" element={<AppLayout />} />
-            <Route path="*" element={<Pagenotfound />} />
-            <Route path="app/*" element={<AppLayout />}>
-              <Route index element={<Navigate replace to="cities" />} />
-              <Route path="cities" element={<CityList />} />
-              <Route path="cities/:id" element={<City />} />
+      <AuthProvider>
+        <CityProvider>
+          <BrowserRouter>
+            <Routes>
+              <Route path="product" element={<Product />} />
+              <Route index element={<Homepage />} />
+              <Route path="pricing" element={<Pricing />} />
+              <Route
+                path="app"
+                element={
+                  <Protected>
+                    <AppLayout />{" "}
+                  </Protected>
+                }
+              />
+              <Route path="*" element={<Pagenotfound />} />
+              <Route path="app/*" element={<AppLayout />}>
+                <Route index element={<Navigate replace to="cities" />} />
+                <Route path="cities" element={<CityList />} />
+                <Route path="cities/:id" element={<City />} />
 
-              <Route path="countries" element={<ContryList />} />
-              <Route path="form" element={<Form />} />
-            </Route>
-            <Route path="/login" element={<Login />} />
-          </Routes>
-        </BrowserRouter>
-      </CityProvider>
+                <Route path="countries" element={<ContryList />} />
+                <Route path="form" element={<Form />} />
+              </Route>
+              <Route path="/login" element={<Login />} />
+            </Routes>
+          </BrowserRouter>
+        </CityProvider>
+      </AuthProvider>
     </div>
   );
 }

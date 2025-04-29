@@ -8,22 +8,10 @@ function Sidebar() {
       <Logo />
       <AppNav />
       <Outlet />
-      <p>List of city</p>
+
       <footer className={styles.footer}>
         <p>WorldWise &copy; 2023</p>
         <p>All rights reserved</p>
-        <p>Privacy Policy</p>
-        <p>Terms of Service</p>
-        <p>Contact Us</p>
-        <p>Help</p>
-        <p>FAQ</p>
-        <p>Support</p>
-        <p>Feedback</p>
-        <p>Careers</p>
-        <p>About Us</p>
-        <p>Blog</p>
-        <p>Press</p>
-        <p>Social Media</p>
 
         <p>Twitter</p>
       </footer>

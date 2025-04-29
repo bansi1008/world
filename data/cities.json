@@ -1,228 +1,91 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": "73930385"
-    },
-    {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
-      "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": "17806751"
-    },
-    {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": "98443197"
-    },
-    {
-      "cityName": "Surat",
-      "country": "India",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 21.170244868698,
-        "lng": 72.831062956896
-      },
-      "id": "9844397"
-    },
-    {
-      "cityName": "Delhi",
-      "country": "India",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": "9843197"
-    },
-    {
-      "id": "0d71",
-      "cityName": "Newcastle upon Tyne",
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "date": "2025-04-29T09:04:58.227Z",
-      "notes": "",
-      "position": {
-        "lat": null,
-        "lng": null
-      }
-    },
-    {
-      "id": "d57e",
+      "id": "f25a",
       "cityName": "London",
       "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "date": "2025-04-29T09:04:58.227Z",
-      "notes": "",
+      "date": "2025-04-29T10:35:01.186Z",
+      "notes": "f",
       "position": {
-        "lat": null,
-        "lng": null
+        "lat": "51.50740596842022",
+        "lng": "-0.12444079940778788"
       }
     },
     {
-      "id": "2135",
-      "cityName": "London",
+      "id": "5a5c",
+      "cityName": "Brimpsfield",
       "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "date": "2025-04-29T09:04:58.227Z",
-      "notes": "",
+      "date": "2025-04-29T11:01:22.607Z",
+      "notes": "df",
       "position": {
-        "lat": null,
-        "lng": null
+        "lat": "51.81367513828005",
+        "lng": "-2.081335335469357"
       }
     },
     {
-      "id": "0d57",
-      "cityName": "Braintree",
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "date": "2025-04-29T09:05:45.536Z",
-      "notes": "vkm",
+      "id": "5bce",
+      "cityName": "Ozouer-le-Voulgis",
+      "country": "France",
+      "date": "2025-04-29T11:01:59.716Z",
+      "notes": "dfo",
       "position": {
-        "lat": null,
-        "lng": null
+        "lat": "48.66604081231949",
+        "lng": "2.7520700227121524"
       }
     },
     {
-      "id": "f32b",
-      "cityName": "London",
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "date": "2025-04-29T09:07:51.664Z",
-      "notes": "ij",
+      "id": "1e93",
+      "cityName": "Raimbeaucourt",
+      "country": "France",
+      "date": "2025-04-29T11:03:42.083Z",
+      "notes": "ok",
       "position": {
-        "lat": null,
-        "lng": null
+        "lat": "50.43113143564952",
+        "lng": "3.121032676821831"
       }
     },
     {
-      "id": "6051",
-      "cityName": "London",
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "date": "2025-04-29T09:13:32.673Z",
-      "notes": "kn",
-      "position": {
-        "lat": "51.51905652865606",
-        "lng": "-0.08699855494521459"
-      }
-    },
-    {
-      "id": "08ae",
-      "cityName": "St Albans",
-      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
-      "date": "2025-04-29T09:13:47.029Z",
-      "notes": "l",
-      "position": {
-        "lat": "51.753440611389784",
-        "lng": "-0.2989476763012467"
-      }
-    },
-    {
-      "id": "f480",
-      "cityName": "Anand",
-      "country": "India",
-      "date": "2025-04-29T09:19:00.521Z",
-      "notes": "yes",
-      "position": {
-        "lat": "22.55043714619344",
-        "lng": "73.02270873261669"
-      }
-    },
-    {
-      "id": "ecdd",
-      "cityName": "Kalol",
-      "country": "India",
-      "date": "2025-04-29T09:20:13.136Z",
-      "notes": "l",
-      "position": {
-        "lat": "23.269371563598206",
-        "lng": "72.52701334568877"
-      }
-    },
-    {
-      "id": "1de2",
-      "cityName": "Patan",
-      "country": "India",
-      "date": "2025-04-29T09:20:13.136Z",
-      "notes": "l",
-      "position": {
-        "lat": "23.868461234382835",
-        "lng": "72.18102058537798"
-      }
-    },
-    {
-      "id": "9b33",
-      "cityName": "Rajkot",
-      "country": "India",
-      "date": "2025-04-29T09:20:13.136Z",
-      "notes": "l",
-      "position": {
-        "lat": "22.301426431705316",
-        "lng": "70.84636432160795"
-      }
-    },
-    {
-      "id": "d784",
-      "cityName": "Lakhtar",
-      "country": "India",
-      "date": "2025-04-29T09:23:30.638Z",
-      "notes": "dsc",
-      "position": {
-        "lat": "22.747941855512277",
-        "lng": "71.86778653472618"
-      }
-    },
-    {
-      "id": "77bf",
-      "cityName": "Limbdi",
-      "country": "India",
-      "date": "2025-04-29T09:23:52.035Z",
-      "notes": "ds",
-      "position": {
-        "lat": "22.716716546783026",
-        "lng": "71.87963525935176"
-      }
-    },
-    {
-      "id": "8007",
-      "cityName": "Gariadhar",
-      "country": "India",
-      "date": "2025-04-29T09:24:09.233Z",
-      "notes": "v",
-      "position": {
-        "lat": "21.539722709930622",
-        "lng": "71.5564163330806"
-      }
-    },
-    {
-      "id": "7d3c",
-      "cityName": "Morvi",
-      "country": "India",
-      "date": "2025-04-29T09:24:50.216Z",
+      "id": "a587",
+      "cityName": "Limeil-Brevannes",
+      "country": "France",
+      "date": "2025-04-29T11:05:18.523Z",
       "notes": "k",
       "position": {
-        "lat": "22.842635759699917",
-        "lng": "70.86629179593302"
+        "lat": "48.747921544537036",
+        "lng": "2.4875291361387712"
+      }
+    },
+    {
+      "id": "e94f",
+      "cityName": "Trakai",
+      "country": "Lithuania",
+      "date": "2025-04-29T11:54:03.455Z",
+      "notes": "hi",
+      "position": {
+        "lat": "54.592180332976326",
+        "lng": "24.88929690187675"
+      }
+    },
+    {
+      "id": "4b3e",
+      "cityName": "London",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "date": "2025-04-29T12:00:07.840Z",
+      "notes": "hi",
+      "position": {
+        "lat": "51.514460791962726",
+        "lng": "-0.10005181448262014"
+      }
+    },
+    {
+      "id": "ebd7",
+      "cityName": "Villeneuve-le-Roi",
+      "country": "France",
+      "date": "2025-04-29T12:01:48.477Z",
+      "notes": "d",
+      "position": {
+        "lat": "48.728725233574714",
+        "lng": "2.4424060638155036"
       }
     }
   ]
